@@ -1,0 +1,9 @@
+.tagpoint-wrap-logo img{
+    max-width: 75%;
+}
+
+.header-menu-center {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
