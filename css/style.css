@@ -11,7 +11,7 @@ Style Documentation:
 3- slider layout 1
 4- fan cats (counter)
 5- services layout 1
-6- about section 
+6- about section
 7- portfolio layout 1
 8- banner section
 9- testmonail layout 1
@@ -26,7 +26,7 @@ Style Documentation:
 18- recent cases
 19- header layout 3
 20- slider layout 3
-21- specialist & about 
+21- specialist & about
 22- fan facts layout 2
 23- projects layout 2
 24- core values
@@ -58,12 +58,12 @@ Style Documentation:
 50- services page 1
 51- services page 2
 53- service page 4
-54- services details page - sidebar 
+54- services details page - sidebar
 55- portfolios page 1
 56- portfolios page 2
 57- portfolios page 5
 58- portfolios details page
-59- grid blogs 
+59- grid blogs
 60- classic blogs
 61-full single blog
 62- contact us page
@@ -522,7 +522,7 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 }
 
 .r_slider_img {
-    height: 700px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

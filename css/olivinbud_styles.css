@@ -2,11 +2,6 @@
      max-width: 75%;
  }
 
-.header-menu-center {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
 .tpcountr_icon {
     font-size: 30px;
