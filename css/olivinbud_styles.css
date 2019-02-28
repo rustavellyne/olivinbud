@@ -1,5 +1,7 @@
 .main-color {
     color: #004085 !important;
+
+    /*color: #178ab8*/
 }
 
 .main-background-color {
@@ -33,12 +35,18 @@
 /* slider main*/
 
 .r_wrap_slider::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
+    background: #000;
     opacity: 0;
+}
+
+.dropex-slider-5 .r_slider_img {
+    height: 80vh;
+}
+
+
+
+
+
+.service_icon_1::before {
+    background-color: #063261;
 }

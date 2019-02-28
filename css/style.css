@@ -300,7 +300,8 @@ img {
 
 .tp-fixed-nav .tagpoint-main-menu>li.current_page_item>a,
 .tp-fixed-nav .tagpoint-main-menu>li>a:hover {
-    color: #fd972e;
+    /*color: #fd972e;*/
+    color: #178ab8;
 }
 
 .tagpoint-main-menu li ul.sub-menu {
@@ -312,6 +313,7 @@ img {
     border-radius: 2px;
     box-sizing: border-box;
     border-top: 3px solid #fd972e;
+    border-color: #178ab8;
     opacity: 0;
     z-index: 555;
     background: #fff;
@@ -417,7 +419,8 @@ img {
 }
 
 .tagpoint-main-menu ul.sub-menu a:hover {
-    color: #fd972e;
+    /*color: #fd972e;*/
+    color: #178ab8;
 }
 
 ul.sub-menu .megamenu-list {
@@ -634,7 +637,8 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 
 .dropex-slider .owl-nav button:hover {
 
-    color: #fd972e !important;
+    /*color: #fd972e !important;*/
+    color: #178ab8 !important;
     background: #fff !important;
 
 }
@@ -1766,7 +1770,8 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 
 .tp-main-menu.header-menu-2 .tagpoint-main-menu>li.current_page_item>a,
 .tp-main-menu.header-menu-2 .tagpoint-main-menu>li>a:hover {
-    color: #fd972e;
+    /*color: #fd972e;*/
+    color: #178ab8;
 }
 
 .tp-main-menu.header-menu-2 .tagpoint-main-menu>li>a,
@@ -1781,7 +1786,8 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 
 .tp-fixed-nav.tp-main-menu.header-menu-2 .tagpoint-main-menu>li.current_page_item>a,
 .tp-fixed-nav.tp-main-menu.header-menu-2 .tagpoint-main-menu>li>a:hover {
-    color: #fd972e;
+    /*color: #fd972e;*/
+    color: #178ab8;
 }
 
 .header-menu-2 .tp_darklogo,
@@ -2327,7 +2333,8 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 
 .tp-main-menu.header-menu-3 .tagpoint-main-menu>li.current_page_item>a,
 .tp-main-menu.header-menu-3 .tagpoint-main-menu>li>a:hover {
-    color: #f7932d;
+    /*color: #f7932d;*/
+    color: #178ab8;
 }
 
 .tp-main-menu.header-menu-3.sticky-header.tp-fixed-nav .top-nav {
@@ -2401,6 +2408,7 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 .bottom_list_info li.q_phone a:hover,
 .wrap_socail_icons li a:hover {
     color: #f7932d;
+    color: #178ab8;
 }
 
 .wrap_socail_icons li {
@@ -3874,7 +3882,8 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 
 .tp-main-menu.header-menu-4 .tagpoint-main-menu>li.current_page_item>a,
 .tp-main-menu.header-menu-4 .tagpoint-main-menu>li>a:hover {
-    color: hsl(30, 98%, 59%);
+    /*color: hsl(30, 98%, 59%);*/
+    color: #178ab8;
 }
 
 .tagpoint-main-menu>li.tp_wrap_sicons:hover>ul {
