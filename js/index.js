@@ -142,7 +142,7 @@
                 nav: true,
                 autoplay: true,
                 responsiveClass: true,
-                autoplayTimeout: 8000,
+                autoplayTimeout: 6000,
                 autoplayHoverPause: true,
                 rewind: false,
                 items: 1,
