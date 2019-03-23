@@ -21,7 +21,6 @@
     font-size: 30px;
 }
 
-
 /* end of top header*/
 
 /* header menu*/
@@ -35,15 +34,10 @@
 
 /* slider main*/
 
-.r_wrap_slider::before {
-    background: #000;
+.r_wrap_slider.r_wrap_slider_4::before {
+    /*background: #000;*/
     opacity: 0;
 }
-
-.dropex-slider-5 .r_slider_img {
-    /*height: 80vh;*/
-}
-
 
 .service_icon_1::before {
     background-color: #063261;
