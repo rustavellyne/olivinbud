@@ -1,12 +1,12 @@
 (function($, window, document) {
 
-    "use strict"; // a stric mode 
+    "use strict"; // a strict mode
 
 
 
 
 
-    // initiall functions  ...
+    // initial functions  ...
     var tp_obj = {
 
 

@@ -3892,8 +3892,12 @@ ul.sub-menu .megamenu-list:nth-child(1) {
 }
 
 .header-menu-4.sticky-header.tp-fixed-nav .top-nav {
-    display: none;
+    /*display: none;*/
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
+
 
 /* 33-  slider layout 5 */
 
