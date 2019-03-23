@@ -1,6 +1,5 @@
 .main-color {
     color: #004085 !important;
-
     /*color: #178ab8*/
 }
 
@@ -8,8 +7,9 @@
     background-color: #004085 !important;
 }
 
-
-
+.main_logo {
+    height: 50px;
+}
 /*top header*/
 
 .col_phoneemail{
@@ -20,9 +20,7 @@
 .tpcountr_icon {
     font-size: 30px;
 }
-.tp_darklogo{
-    height: 80px;
-}
+
 
 /* end of top header*/
 
@@ -30,7 +28,10 @@
 
 .wrap_socail_icons li a {
     line-height: 27px;
+    background: rgba(0, 64, 133, 0.8);
 }
+
+
 
 /* slider main*/
 
