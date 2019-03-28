@@ -68,3 +68,24 @@
 .wrap-case:hover .wrap_case_image::before {
     border: 10px solid rgb(10, 42, 203);
 }
+
+/*section for phone number*/
+.banner-btn .dropex-btn {
+    background-color: #004085;
+}
+
+.banner-btn .dropex-btn:hover {
+    color: #004085;
+    background-color: #f2f1ed;
+}
+/*end of section phone number*/
+
+/*process section*/
+.process_icon {
+    color: #004085;
+}
+
+.wrap_process_2:hover .process_icon {
+    background-color: #004085;
+}
+/*end of process section*/
