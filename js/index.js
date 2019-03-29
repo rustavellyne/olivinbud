@@ -1030,8 +1030,12 @@
         var item = $("body").find("#preloader");
 
         if (item.length) {
-            item.delay(200).fadeOut("slow");
-            item.css("visibility", "hidden");
+
+            setTimeout(function(){
+                item.delay(200).fadeOut("slow");
+                //item.css("visibility", "hidden");
+            }, 2000);
+
             tp_obj.tp_smooth_animation();
 
         }
