@@ -89,3 +89,16 @@
     background-color: #004085;
 }
 /*end of process section*/
+
+/*works section*/
+.smore_btn::before {
+    background-color: #004085;
+}
+
+.smore_btn span {
+    color: #ffffff;
+}
+
+.service_link:hover .smore_btn span {
+    color: #004085;
+}
