@@ -102,3 +102,11 @@
 .service_link:hover .smore_btn span {
     color: #004085;
 }
+
+/*end of works section*/
+
+/*footer*/
+.dropex-section.b-footer {
+    background-color: #004085;
+}
+/*-------*/
