@@ -110,3 +110,14 @@
     background-color: #004085;
 }
 /*-------*/
+
+/*breadcrumbs background*/
+.dropex-section.r-breadcurmbs-1 {
+    background-image: url(../images/breadcrumbs.jpg);
+    background-position-y: -150%;
+}
+
+.single_img_carousel {
+    height: 450px;
+}
+
