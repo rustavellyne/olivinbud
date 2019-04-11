@@ -109,6 +109,27 @@
 .dropex-section.b-footer {
     background-color: #004085;
 }
+
+.footer_list li a:hover, .footer_address p a:hover {
+    color: #004085;
+}
+
+.footer_list li a:hover::before {
+    border-left-color: #004085;
+}
+
+.copywright a:hover, .privacy_list li a:hover {
+    color: #004085;
+}
+
+.footer_sicons li a:hover {
+    border-color: transparent;
+    background: #004085;
+    color: #fff;
+}
+.subcribe {
+    background-color: #004085;
+}
 /*-------*/
 
 /*breadcrumbs background*/
@@ -120,4 +141,25 @@
 .single_img_carousel {
     height: 450px;
 }
+.mfp-bg, .mfp-wrap {
+    z-index: 99999;
+}
 
+.breadcrumbs_content_1 li span, .breadcrumbs_content_1 li a:hover {
+    color: #004085;
+}
+
+/*menu in projects*/
+.related_service_list li.current a, .related_service_list li a:hover {
+    color: #004085;
+    background: hsla(0, 0%, 0%, 0.02);
+    border-left: 8px solid #eee;
+}
+
+.wcontact_icon {
+    color: #004085;
+}
+
+.singlep-carousel .owl-dots button.active {
+    background: #004085;
+}
