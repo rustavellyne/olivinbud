@@ -138,8 +138,12 @@
     background-position-y: -150%;
 }
 
-.single_img_carousel {
-    height: 450px;
+.single_img_carousel img{
+    max-height:500px;
+    object-fit: contain;
+}
+.singlep-carousel .owl-dots button {
+    background-color: white;
 }
 .mfp-bg, .mfp-wrap {
     z-index: 99999;

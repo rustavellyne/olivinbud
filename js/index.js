@@ -342,6 +342,64 @@
 
         },
 
+        // Portfolio Carousel Layout 2
+        pr_interiers_owl: function() {
+            var powl = $('body').find('.pr_interiers_owl');
+            if (powl.length) {
+                powl.each(function() {
+                    var _powl = $(this);
+                    var to_show, dots, nav, loop;
+                    to_show = _powl.data('show');
+                    to_show = (to_show !== 'undefined') ? parseInt(to_show, 10) : 3;
+                    dots = _powl.data('dots');
+                    dots = (dots !== 'off') ? true : false;
+                    nav = _powl.data('nav');
+                    nav = (nav !== 'off') ? true : false;
+                    loop = _powl.data('loop');
+                    loop = (loop !== 'no') ? true : false;
+                    var to_show_576 = (to_show === 1) ? 1 : 2;
+                    var to_show_768 = (to_show === 1) ? 1 : 2;
+
+                    _powl.owlCarousel({
+                        items: to_show,
+                        autoplay: true,
+                        autoplayTimeout: 7000,
+                        autoplayHoverPause: true,
+                        responsiveClass: true,
+                       // autoWidth:true,
+                        nav: nav,
+                        dots: dots,
+                        responsive: {
+                            0: {
+                                items: 1,
+                                loop: loop
+                            },
+                            576: {
+                                items: to_show_576,
+                                loop: loop
+
+                            },
+                            768: {
+                                items: to_show_768,
+                                loop: loop
+
+                            },
+                            1140: {
+                                items: to_show,
+                                nav: nav,
+                                loop: loop
+                            }
+                        }
+                    });
+
+
+                });
+            }
+
+
+
+        },
+
         // Blogs Carousel Layout 
 
         blogs_carousel: function() {
@@ -856,6 +914,7 @@
             tp_obj.page_slider();
             tp_obj.projects_masonary();
             tp_obj.portfolio_owl();
+            tp_obj.pr_interiers_owl();
 
 
             /* blogs grid masonary  */
