@@ -139,11 +139,11 @@
 }
 
 .single_img_carousel img{
-    max-height:500px;
+    max-height: 500px;
     object-fit: contain;
 }
 .singlep-carousel .owl-dots button {
-    background-color: white;
+    background-color: darkgrey;
 }
 .mfp-bg, .mfp-wrap {
     z-index: 99999;
