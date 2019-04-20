@@ -167,3 +167,50 @@
 .singlep-carousel .owl-dots button.active {
     background: #004085;
 }
+
+/*about us section*/
+.dropex-section.benefits-section {
+    background-color: #ffffff;
+}
+.dropex-section.benefits-section:before {
+    box-shadow: none;
+    background-color: #ffffff;
+}
+.work_services_list {
+
+}
+
+.work_services_list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.work_services_list li p {
+    margin-left: 10px;
+}
+
+.partners_row {
+    margin-top: 0;
+}
+.partners {
+    margin-bottom: 30px;
+}
+
+.partners li {
+    display: inline-block;
+}
+
+.partners li .sinclude_icon {
+    background-color: #004085;
+}
+
+/*clients section*/
+.clients_section {
+    background: #ffffff;
+    background-image: none !important;
+}
+
+.clients_section .wrap_simg_5::before {
+    background-color: #004085;
+}

@@ -944,11 +944,11 @@
                     fixedContentPos: false
                 });
             }
-
+//zoom images
             if (jQuery().magnificPopup) {
                 $(document).magnificPopup({
-                    //delegate: 'a.blasa-link',
-                    delegate: '.owl-item:not(.owl-item.cloned) a.blasa-link',
+                    delegate: 'a.blasa-link:not(.owl-item.cloned a.blasa-link)',
+                    //delegate: '.owl-item:not(.owl-item.cloned) a.blasa-link',
                     type: 'image',
                     gallery: {
                         // options for gallery
