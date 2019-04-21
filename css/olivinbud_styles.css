@@ -10,6 +10,10 @@
 .main_logo {
     height: 50px;
 }
+
+.has-sub > a {
+    padding-bottom: 35px !important;
+}
 /*top header*/
 
 .col_phoneemail{
@@ -233,3 +237,28 @@
     color: #bb9fa4;
 }
 
+/*contacts*/
+.head_contact h3 {
+    border-bottom-color: #004085;
+}
+
+.share-post li a:hover {
+    background-color: #004085;
+}
+
+.comment-form button {
+    background-color: #004085;
+}
+
+.comment-form button::before {
+    background-color: #004085;
+}
+
+.comment-form button:hover {
+    background-color: #0063e1;
+    color: #ffffff;
+}
+
+.comment-form button:hover::before {
+    background-color: #0063e1;
+}
