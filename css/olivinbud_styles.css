@@ -15,7 +15,10 @@
     padding-bottom: 35px !important;
 }
 /*top header*/
-
+.phone_menu.ltm_icon_active {
+    right: -3px;
+    top: 47%;
+}
 .col_phoneemail{
     display: flex;
     align-items: center;
@@ -262,3 +265,4 @@
 .comment-form button:hover::before {
     background-color: #0063e1;
 }
+
