@@ -1093,7 +1093,7 @@
         if (item.length) {
 
             setTimeout(function(){
-                item.delay(200).fadeOut("slow");
+                item.delay(100).fadeOut("slow");
                 //item.css("visibility", "hidden");
             }, 200);
 
