@@ -1095,7 +1095,7 @@
             setTimeout(function(){
                 item.delay(100).fadeOut("slow");
                 //item.css("visibility", "hidden");
-            }, 200);
+            }, 100);
 
             tp_obj.tp_smooth_animation();
 
@@ -1107,6 +1107,13 @@
 
 
     });
+
+    // $(function() {
+    //     var loc = window.location.href; // returns the full URL
+    //     if(/index/.test(loc)) {
+    //         $('.tagpoint-main-menu > li .about').addClass('current_page_item');
+    //     }
+    // });
 
     // end of use strict function
 
