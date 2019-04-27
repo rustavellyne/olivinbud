@@ -292,3 +292,69 @@
 .table-inner-title ~ td {
     border-left: 0;
 }
+
+/*carousel na project*/
+
+.pr_interiers_owl .owl-nav button {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%) rotate(45deg);
+    z-index: 1;
+    display: inline-block;
+    background: #09162a !important;
+}
+
+.pr_interiers_owl .owl-nav button span {
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    transform: rotate(-45deg);
+    font-size: 36px;
+    line-height: 49px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6px;
+}
+
+.pr_interiers_owl .owl-nav button.owl-next,
+.portfolio-owl .owl-nav button.owl-next {
+    right: 6%;
+}
+.pr_interiers_owl .owl-nav button.owl-prev,
+.portfolio-owl .owl-nav button.owl-prev {
+    left: 6%;
+}
+
+.pr_interiers_owl .owl-nav button,
+.pr_interiers_owl .owl-nav button:hover,
+.portfolio-owl .owl-nav button,
+.portfolio-owl .owl-nav button:hover {
+    background-color: inherit !important;
+}
+.pr_interiers_owl .owl-nav button:focus,
+.portfolio-owl .owl-nav button:focus {
+    outline: none !important;
+}
+.pr_interiers_owl .owl-nav button span,
+.portfolio-owl .owl-nav button span {
+    font-size: 85px;
+    color: #005ed2;
+}
+
+.pr_interiers_owl .owl-nav button:hover span,
+.portfolio-owl .owl-nav button:hover span {
+    font-size: 85px;
+    color: grey !important;
+}
+
+
+
+
+
+
+
+
+
