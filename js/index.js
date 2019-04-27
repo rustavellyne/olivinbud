@@ -1095,7 +1095,7 @@
             setTimeout(function(){
                 item.delay(20).fadeOut("slow");
                 //item.css("visibility", "hidden");
-            }, 0);
+            }, 100);
 
             tp_obj.tp_smooth_animation();
 
