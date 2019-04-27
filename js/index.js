@@ -143,7 +143,7 @@
                 autoplay: true,
                 responsiveClass: true,
                 autoplayTimeout: 6000,
-                autoplayHoverPause: true,
+                autoplayHoverPause: false,
                 rewind: false,
                 items: 1,
                 responsive: {
@@ -1093,9 +1093,9 @@
         if (item.length) {
 
             setTimeout(function(){
-                item.delay(100).fadeOut("slow");
+                item.delay(20).fadeOut("slow");
                 //item.css("visibility", "hidden");
-            }, 100);
+            }, 0);
 
             tp_obj.tp_smooth_animation();
 
@@ -1114,7 +1114,7 @@
     //         $('.tagpoint-main-menu > li .about').addClass('current_page_item');
     //     }
     // });
-
     // end of use strict function
+
 
 }(window.jQuery, window, document));
