@@ -36,7 +36,9 @@
     line-height: 27px;
     background: rgba(0, 64, 133, 0.8);
 }
-
+.wrap_socail_icons li a:hover {
+    border: 1px solid #178ab8;
+}
 
 
 /* slider main*/
