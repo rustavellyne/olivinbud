@@ -15,7 +15,7 @@
 }
 
 .tagpoint-wrap-logo a {
-    padding: 8px 0 0px 0;
+    padding: 8px 0 0 0;
 }
 
 .has-sub > a {
@@ -148,11 +148,18 @@
 }
 /*-------*/
 
-/*breadcrumbs background*/
+/*breadcrumbs background* default*/
 .dropex-section.r-breadcurmbs-1 {
     background-image: url(../images/breadcrumbs.jpg);
     background-position-y: -150%;
 }
+/*breadcrumbs for projects*/
+.projects.dropex-section.r-breadcurmbs-1 {
+    background-image: url(../images/projects/blueprint-964630_1280.jpg);
+    background-position-y: 37%;
+    background-size: cover;
+}
+
 
 .single_img_carousel img{
     max-height: 500px;
@@ -166,12 +173,12 @@
 }
 
 .breadcrumbs_content_1 li span, .breadcrumbs_content_1 li a:hover {
-    color: #004085;
+    color: #ebbb2c;
 }
 
 /*menu in projects*/
 .related_service_list li.current a, .related_service_list li a:hover {
-    color: #004085;
+    color: #ebbb2c;
     background: hsla(0, 0%, 0%, 0.02);
     border-left: 8px solid #eee;
 }
@@ -359,11 +366,20 @@
     color: grey !important;
 }
 
+.item {
+    margin-bottom: 35px;
+    border-bottom: 1px solid darkgrey;
+}
 
+.projects360 {
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
 
-
-
-
-
+.projects360 iframe {
+    width: 100%;
+    height: 100%;
+}
 
 
