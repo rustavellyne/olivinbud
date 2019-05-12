@@ -375,6 +375,8 @@
     margin-top: 30px;
     width: 100%;
     height: 500px;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .projects360 iframe {
@@ -382,4 +384,6 @@
     height: 100%;
 }
 
-
+.related_service_list li.current a, .related_service_list li a:hover {
+    color: #2c91eb;
+}
