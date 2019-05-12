@@ -1088,18 +1088,18 @@
 
 
 
-        var item = $("body").find("#preloader");
-
-        if (item.length) {
-
-            setTimeout(function(){
-                item.delay(20).fadeOut("slow");
-                item.css("visibility", "hidden");
-            }, 100);
-
-            tp_obj.tp_smooth_animation();
-
-        }
+        // var item = $("body").find("#preloader");
+        //
+        // if (item.length) {
+        //
+        //     setTimeout(function(){
+        //         item.delay(20).fadeOut("slow");
+        //         item.css("visibility", "hidden");
+        //     }, 100);
+        //
+        //     tp_obj.tp_smooth_animation();
+        //
+        // }
         if ($('.before-after-container').length) {
             $(document).find(".before-after-container").twentytwenty();
         }
