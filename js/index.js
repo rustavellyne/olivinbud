@@ -1108,6 +1108,19 @@
 
     });
 
+    var item = $("body").find("#preloader");
+
+    if (item.length) {
+
+        setTimeout(function(){
+            item.delay(20).fadeOut("slow");
+            item.css("visibility", "hidden");
+        }, 100);
+
+        tp_obj.tp_smooth_animation();
+
+    }
+
     // $(function() {
     //     var loc = window.location.href; // returns the full URL
     //     if(/index/.test(loc)) {
