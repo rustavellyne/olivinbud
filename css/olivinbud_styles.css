@@ -160,6 +160,12 @@
     background-size: cover;
 }
 
+.realization_breadcrumbs.dropex-section.r-breadcurmbs-1 {
+    background-image: url(../images/realizations/breadcrumbs2.jpg);
+    background-position-y: 37%;
+    background-size: cover;
+}
+
 
 .single_img_carousel img{
     max-height: 500px;
