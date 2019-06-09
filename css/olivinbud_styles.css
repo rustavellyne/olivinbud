@@ -393,3 +393,24 @@
 .related_service_list li.current a, .related_service_list li a:hover {
     color: #2c91eb;
 }
+.city-tabs .post-more {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.city-tabs .post-more i {
+    right: 110px;
+    background: #005ed2;
+}
+
+.city-tabs .active,
+.city-tabs .post-more:hover {
+    background: #005ed2;
+    color: #fff;
+}
+.city-tabs .active i,
+.post-more:hover i {
+    background: #09162a;
+    color: #005ed2;
+}
+
