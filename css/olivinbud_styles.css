@@ -9,9 +9,10 @@
 
 .main_logo {
     height: 65px;
-    -webkit-box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);
-    box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);
+    object-fit: contain;
+    /*-webkit-box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);*/
+    /*box-shadow: 9px 10px 21px 5px rgba(0,0,0,0.75);*/
 }
 
 .tagpoint-wrap-logo a {
