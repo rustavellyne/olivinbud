@@ -5,7 +5,8 @@
 <style type="text/css">
     @font-face {
         font-family: "Royana-Regular";
-        src: url("../../webfonts/10708.ttf") format("truetype");
+        src: url("../../webfonts/10708.woff") format("truetype");
+        font-display: swap;
     }
 	.st0{display:none;}
 	.st1{fill:#FFFFFF;}

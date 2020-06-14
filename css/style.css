@@ -73,10 +73,13 @@ Style Documentation:
 
 
  */
-
+@font-face {
+    font-family: "Royana-Regular";
+    src: url("../webfonts/10708.ttf") format("truetype");
+}
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
